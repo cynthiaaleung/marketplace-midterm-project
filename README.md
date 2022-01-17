@@ -39,8 +39,9 @@ The Messages thread shows all messages within the current thread, as well as the
   - It runs through each of the files, in order, and executes them against the database. 
   - Note: you will lose all newly created (test) data each time this is run, since the schema files will tend to `DROP` the tables and recreate them.
 
-## Dependencies
+## Tech Stack & Dependencies
 
+- JavaScript
 - Node 10.x or above
 - NPM 5.x or above
 - PG 6.x
